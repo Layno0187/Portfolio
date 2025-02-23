@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <title>Arwena | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <div class="container">
+        <nav>
+            <div class="logo">Arwena</div>
+            <div class="nav-links">
+                <a href="#home" class="scroll-link">Home</a>
+                <a href="#domains" class="scroll-link">Domains</a>
+                <a href="#interests" class="scroll-link">Interessen</a>
+                <a href="#projects" class="scroll-link">Projekte</a>
+            </div>
+            <a href="#" id="impressum-link">
+            </a>
+        </nav>
+
+        <section class="hero" id="home">
+            <h1>
+                <span class="gradient-text">Arwena</span>
+            </h1>
+            <p>Developer • Student • Gamer</p>
+            <span class="location">Nordrhein-Westfalen, DE</span>
+            
+            <div class="social-links" id="socials">
+                <a href="https://github.com/Layno0187" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="http://discord.flinooa.de" class="social-icon"><i class="fab fa-discord"></i></a>
+                <a href="https://open.spotify.com/user/31wphdx54xsrnrml4g27whzsodjy?si=ac1d67d6b7034b86" class="social-icon"><i class="fab fa-spotify"></i></a>
+            </div>
+
+            <div class="quick-info">
+                <div class="info-card">
+                    <i class="fas fa-code-branch"></i>
+                    <div class="info-content">
+                        <h3>Aktive Projekte</h3>
+                        <p>2+ Projekte in Entwicklung</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-terminal"></i>
+                    <div class="info-content">
+                        <h3>Tech Stack</h3>
+                        <p>PHP/Laravel • HTML/CSS • JavaScript • Python • C • Java • SQL </p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-server"></i>
+                    <div class="info-content">
+                        <h3>Server Setup</h3>
+                        <p>Linux • Docker • Proxmox • Nginx </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="domains-section" id="domains">
+                <h2>Meine Domains</h2>
+                <div class="domain-cards">
+                    <div class="domain-card">
+                        <span class="domain-name">arwena.dev</span>
+                        <span class="domain-type">Portfolio Website</span>
+                    </div>
+                    <div class="domain-card">
+                        <span class="domain-name">Flinooa.de</span>
+                        <span class="domain-type">Aktuelles Projekt</span>
+                    </div>
+                    <div class="domain-card">
+                        <span class="domain-name">Flinooa.eu</span>
+                        <span class="domain-type">Aktuelles Projekt</span>
+                    </div>
+                    <div class="domain-card">
+                        <span class="domain-name">Pingubot.de</span>
+                        <span class="domain-type">Discord Bot</span>
+                    </div>
+                    <div class="domain-card">
+                        <span class="domain-name">arwena.dev</span>
+                        <span class="domain-type">Portfolio Website</span>
+                    </div>
+                    <div class="domain-card">
+                        <span class="domain-name">Flinooa.de</span>
+                        <span class="domain-type">Aktuelles Projekt</span>
+                    </div>
+                    <div class="domain-card">
+                        <span class="domain-name">Flinooa.eu</span>
+                        <span class="domain-type">Aktuelles Projekt</span>
+                    </div>
+                    <div class="domain-card">
+                        <span class="domain-name">Pingubot.de</span>
+                        <span class="domain-type">Discord Bot</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="interests-section" id="interests">
+                <h2>Was ich mache</h2>
+                <div class="interests-grid">
+                    <div class="interest-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Development</h3>
+                        <p>Web, App, Bot, etc.</p>
+                    </div>
+                    <div class="interest-card">
+                        <i class="fas fa-server"></i>
+                        <h3>Server</h3>
+                        <p>Linux & Hosting</p>
+                    </div>
+                    <div class="interest-card">
+                        <i class="fas fa-gamepad"></i>
+                        <h3>Server Building</h3>
+                        <p>Server, PCs etc.</p>
+                    </div>
+                    <div class="interest-card">
+                        <i class="fas fa-gamepad"></i>
+                        <h3>Gaming</h3>
+                        <p>Server Projekte</p>
+                    </div>
+                    <div class="interest-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Bildung</h3>
+                        <p>Dauer haft am Weiterbilden :D</p>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-section" id="projects">
+                <h2>Aktuelle Projekte</h2>
+                <div class="project-teaser">
+                    <i class="fas fa-rocket"></i>
+                    <p>Flinooa.de</p>
+                    <span class="coming-soon">Mehr Infos bald</span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <span class="copyright">created by Arwena</span>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.scroll-link').forEach(link => {
+            link.addEventListener('click', e => {
+                e.preventDefault();
+                const targetId = link.getAttribute('href');
+                document.querySelector(targetId).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        const impressumLink = document.getElementById('impressum-link');
+        const impressumPopup = document.getElementById('impressum-popup');
+        const closePopup = document.getElementById('close-popup');
+
+        impressumLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            impressumPopup.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+
+        closePopup.addEventListener('click', () => {
+            impressumPopup.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
+
+        impressumPopup.addEventListener('click', (e) => {
+            if (e.target === impressumPopup) {
+                impressumPopup.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+        });
+    </script>
+</body>
+</html> 
